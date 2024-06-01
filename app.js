@@ -9,11 +9,11 @@ app.get('/', (request, response) => {
 })
 
 app.get('/About', (request, response) => {
-    response.sendFile ('about.html')
+    response.sendFile (__dirname + '/public/about.html')
 })
 
 app.get('/Works', (request, response) => {
-    response.sendFile ('works.html')
+    response.sendFile (__dirname + '/public/works.html')
 })
 
 app.listen(port) 
