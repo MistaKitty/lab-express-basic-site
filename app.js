@@ -8,11 +8,11 @@ app.get('/', (request, response) => {
     response.sendFile (__dirname + '/public/index.html')
 })
 
-app.get('/About', (request, response) => {
+app.get('/about', (request, response) => {
     response.sendFile (__dirname + '/public/about.html')
 })
 
-app.get('/Works', (request, response) => {
+app.get('/works', (request, response) => {
     response.sendFile (__dirname + '/public/works.html')
 })
 
